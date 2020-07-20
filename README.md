@@ -34,3 +34,19 @@ Get help from other Vue.js users:
 
 * [Nuxt.js on Twitter](https://twitter.com/nuxt_js)
 * [Nuxt.js on Gitter](https://gitter.im/nuxt/nuxt.js)
+
+## Add Newrelic
+```bash
+# install newrelic on project
+npm i newrelic
+
+# copy file newrelic to root project
+cp node_modules/newrelic/newrelic.js .
+
+# edit file newrelic set value for app_name and licence_key
+nano newrelic.js
+```
+
+import newrelic to project go to start file and add this code on top code line.
+
+const nr = require('newrelic')
