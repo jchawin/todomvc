@@ -34,3 +34,8 @@ Get help from other Vue.js users:
 
 * [Nuxt.js on Twitter](https://twitter.com/nuxt_js)
 * [Nuxt.js on Gitter](https://gitter.im/nuxt/nuxt.js)
+
+## Add Newrelic
+npm i newrelic
+cp node_modules/newrelic/newrelic.js .
+nano newrelic.js
