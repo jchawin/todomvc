@@ -1,3 +1,4 @@
+const nr = require('newrelic')
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const app = require('express')()
